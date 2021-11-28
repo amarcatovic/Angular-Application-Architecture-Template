@@ -1,0 +1,28 @@
+{
+    "WELCOME_MESSAGE": "Angular modèle de demande",
+    "LANGUAGES": {
+        "ENGLISH_LANGUAGE": "Anglaise",
+        "DUTCH_LANGUAGE": "Néerlandaise",
+        "FRENCH_LANGUAGE": "Français"
+    },
+    "LAYOUT": {
+        "NAVBAR": {
+            "TEMPLATE": "Modèle",
+            "HOME": "Page d'accueil",
+            "USER": "Utilisatrice",
+            "LOG_OFF": "Se déconnecter",
+            "MODULES": {
+                "MODULES": "Modules",
+                "STATE_MANAGEMENT": "Gestion de l'État",
+                "SHARED_EXAMPLE": "Exemple partagé"
+            },
+            "LANGUAGES": "Langues"
+        },
+        "FOOTER": {
+            "COPYRIGHT": "Droits d'auteur"
+        }
+    },
+    "SHARED": {
+        "OPEN_PAYMENT_FORM": "Formulaire de paiement ouvert"
+    }
+}

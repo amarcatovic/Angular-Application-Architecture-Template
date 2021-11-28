@@ -1,0 +1,28 @@
+{
+    "WELCOME_MESSAGE": "Angular Toepassingssjabloon",
+    "LANGUAGES": {
+        "ENGLISH_LANGUAGE": "Engels",
+        "DUTCH_LANGUAGE": "Nederlands",
+        "FRENCH_LANGUAGE": "Frans"
+    },
+    "LAYOUT": {
+        "NAVBAR": {
+            "TEMPLATE": "Sjabloon",
+            "HOME": "Startpagina",
+            "USER": "Gebruiker",
+            "LOG_OFF": "Uitloggen",
+            "MODULES": {
+                "MODULES": "Modules",
+                "STATE_MANAGEMENT": "Staatsbeheer",
+                "SHARED_EXAMPLE": "Gedeeld voorbeeld"
+            },
+            "LANGUAGES": "Talen"
+        },
+        "FOOTER": {
+            "COPYRIGHT": "Auteursrechten"
+        }
+    },
+    "SHARED": {
+        "OPEN_PAYMENT_FORM": "Betaalformulier openen"
+    }
+}

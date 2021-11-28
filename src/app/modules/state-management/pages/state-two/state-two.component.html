@@ -1,0 +1,11 @@
+<div class="container">
+    <mat-list role="list">
+        <mat-list-item role="listitem"><span [matBadge]="counters$.counterOne" matBadgeOverlap="false">Counter One</span></mat-list-item>
+        <mat-list-item role="listitem"><span [matBadge]="counters$.counterTwo" matBadgeOverlap="false">Counter Two</span></mat-list-item>
+        <mat-list-item role="listitem"><span [matBadge]="counters$.counterThree" matBadgeOverlap="false">Counter Three</span></mat-list-item>
+    </mat-list> 
+
+    <button mat-fab color="primary" (click)="increment()">
+        <mat-icon>add</mat-icon>
+    </button>
+</div>

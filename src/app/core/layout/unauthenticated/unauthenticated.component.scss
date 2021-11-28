@@ -1,0 +1,9 @@
+.sidebar {
+    background-color: tomato;
+}
+
+@media (max-width: 991px) {
+    .main {
+        bottom: 0;
+    }
+}

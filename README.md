@@ -1,27 +1,47 @@
-# AppTemplate
+# Angular Application Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Development server
+Angular Application template, skip seting up all the boring stuff.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Clone the repo
+- npm install
+- ✨Continue coding✨
 
-## Code scaffolding
+## Installed add-ons
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This template uses a number of open source libraries to work properly:
 
-## Build
+- [Bootstrap](https://getbootstrap.com/) - Simplifying the development of informative web pages
+- [jQuery](https://jquery.com/) - For bootstrap dropdowns
+- [Amgilar Material](https://material.angular.io/) - User Interface (UI) component library
+- [Angular Translate](https://angular-translate.github.io/) - Translation module
+- [Toastr](https://www.npmjs.com/package/ngx-toastr) - Popable components
+- [ESLint](https://github.com/angular-eslint/angular-eslint) - VSCode plugin support
+- [Cookie Service](https://www.npmjs.com/package/ngx-cookie-service) - Save data to cookies
+- [crypto-js](https://www.npmjs.com/package/crypto-js) - JavaScript library of crypto standards.
+- [GUID Typescript](https://www.npmjs.com/package/guid-typescript) - Generate guid code
+- [@ngrx/store](https://ngrx.io/guide/store) - RxJS powered global state management for Angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Modules
 
-## Running unit tests
+For Properly Structuring Angular Code
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+| Module | Explanation |
+| ------ | ------ |
+| Core | Common services, modules and setups |
+| Layout | Application layout. Can place multiple layout options |
+| Shared | All the shared components, services, etc |
+| Auth | All about authentication |
+| Your modules | Place your modules into modules folder |
 
-## Running end-to-end tests
+## Development
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Want to contribute? Great!
 
-## Further help
+Add your changes and create pull request.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslationService } from './core/services/translation/translation.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app-template';
+  constructor(
+    private _translation: TranslationService
+  ) {}
+
+  changeLanguage(abbreviation: string): void {
+    this._translation.changeLanguage(abbreviation);
+  }
 }

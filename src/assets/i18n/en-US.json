@@ -1,0 +1,28 @@
+{
+    "WELCOME_MESSAGE": "Angular Application Template",
+    "LANGUAGES": {
+        "ENGLISH_LANGUAGE": "English",
+        "DUTCH_LANGUAGE": "Dutch",
+        "FRENCH_LANGUAGE": "French"
+    },
+    "LAYOUT": {
+        "NAVBAR": {
+            "TEMPLATE": "Template",
+            "HOME": "Home",
+            "USER": "User",
+            "LOG_OFF": "Log off",
+            "MODULES": {
+                "MODULES": "Modules",
+                "STATE_MANAGEMENT": "State management",
+                "SHARED_EXAMPLE": "Shared example"
+            },
+            "LANGUAGES": "Languages"
+        },
+        "FOOTER": {
+            "COPYRIGHT": "Copyright"
+        }
+    },
+    "SHARED": {
+        "OPEN_PAYMENT_FORM": "Open payment form"
+    }
+}

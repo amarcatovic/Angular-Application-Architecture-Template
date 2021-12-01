@@ -14,7 +14,8 @@
             "MODULES": {
                 "MODULES": "Modules",
                 "STATE_MANAGEMENT": "Staatsbeheer",
-                "SHARED_EXAMPLE": "Gedeeld voorbeeld"
+                "SHARED_EXAMPLE": "Gedeeld voorbeeld",
+                "SEARCH_EXAMPLE": "Zoeken voorbeeld"
             },
             "LANGUAGES": "Talen"
         },

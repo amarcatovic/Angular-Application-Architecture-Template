@@ -24,6 +24,10 @@ const routes: Routes = [
       {
         path: 'shared-example',
         loadChildren: () => import('./modules/example-using-shared/example-using-shared.module').then(m => m.ExampleUsingSharedModule)
+      },
+      {
+        path: 'search-example',
+        loadChildren: () => import('./modules/search-demo/search-demo.module').then(m => m.SearchDemoModule)
       }
     ]
   },

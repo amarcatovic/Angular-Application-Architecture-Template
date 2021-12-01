@@ -14,7 +14,8 @@
             "MODULES": {
                 "MODULES": "Modules",
                 "STATE_MANAGEMENT": "Gestion de l'État",
-                "SHARED_EXAMPLE": "Exemple partagé"
+                "SHARED_EXAMPLE": "Exemple partagé",
+                "SEARCH_EXAMPLE": "Exemple de recherche"
             },
             "LANGUAGES": "Langues"
         },

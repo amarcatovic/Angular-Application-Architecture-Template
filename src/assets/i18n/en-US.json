@@ -14,7 +14,8 @@
             "MODULES": {
                 "MODULES": "Modules",
                 "STATE_MANAGEMENT": "State management",
-                "SHARED_EXAMPLE": "Shared example"
+                "SHARED_EXAMPLE": "Shared example",
+                "SEARCH_EXAMPLE": "Search example"
             },
             "LANGUAGES": "Languages"
         },

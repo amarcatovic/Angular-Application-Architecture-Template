@@ -6,7 +6,11 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent
-  }
+  },
+  {
+    path: 'employee-details',
+    loadChildren: () => import('../../shared/modules/employee-details/employee-details.module').then(m => m.EmployeeDetailsModule)
+  },
 ];
 
 @NgModule({

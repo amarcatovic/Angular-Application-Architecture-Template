@@ -11,19 +11,21 @@
             <thead>
                 <tr class="bg-light">
                     <th scope="col" width="5%">#</th>
-                    <th scope="col" width="20%">Name</th>
+                    <th scope="col" width="15%">Name</th>
                     <th scope="col" width="10%">Username</th>
                     <th scope="col" width="20%">Email</th>
                     <th scope="col" width="20%">Phone</th>
+                    <th scope="col" width="5%">Details</th>
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let user of users | async">
+                <tr *ngFor="let user of users | async, let i = index">
                     <td>{{ user.id }}</td>
                     <td>{{ user.name }}</td>
                     <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">{{ user.username }}</span></td>
                     <td><img src="https://i.imgur.com/VKOeFyS.png" width="25"> {{ user.email }}</td>
                     <td>{{ user.phone }}</td>
+                    <td><button [routerLink]="['details', i]" routerLinkActive="router-link-active"  class="btn btn-sm btn-info">Details</button></td>
                 </tr>
             </tbody>
         </table>
